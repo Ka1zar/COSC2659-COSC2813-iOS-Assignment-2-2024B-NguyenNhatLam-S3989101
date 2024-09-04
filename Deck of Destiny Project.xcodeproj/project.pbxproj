@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		902E8D602C88250700A19BEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 902E8D5F2C88250700A19BEC /* Assets.xcassets */; };
+		902E8D632C88250700A19BEC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 902E8D622C88250700A19BEC /* Preview Assets.xcassets */; };
+		902E8D6D2C88250700A19BEC /* Deck_of_Destiny_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902E8D6C2C88250700A19BEC /* Deck_of_Destiny_ProjectTests.swift */; };
+		902E8D772C88250700A19BEC /* Deck_of_Destiny_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902E8D762C88250700A19BEC /* Deck_of_Destiny_ProjectUITests.swift */; };
+		902E8D792C88250700A19BEC /* Deck_of_Destiny_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902E8D782C88250700A19BEC /* Deck_of_Destiny_ProjectUITestsLaunchTests.swift */; };
+		902E8DF52C8825D100A19BEC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 902E8DEA2C8825D100A19BEC /* README.md */; };
+		902E8DF62C8825D100A19BEC /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902E8DEB2C8825D100A19BEC /* LeaderboardViewController.swift */; };
+		902E8DF72C8825D100A19BEC /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902E8DEC2C8825D100A19BEC /* GameState.swift */; };
+		902E8DF82C8825D100A19BEC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902E8DED2C8825D100A19BEC /* SettingsViewController.swift */; };
+		902E8DF92C8825D100A19BEC /* LocalizeVN.strings in Resources */ = {isa = PBXBuildFile; fileRef = 902E8DEE2C8825D100A19BEC /* LocalizeVN.strings */; };
+		902E8DFA2C8825D100A19BEC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902E8DEF2C8825D100A19BEC /* GameViewController.swift */; };
+		902E8DFB2C8825D100A19BEC /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902E8DF02C8825D100A19BEC /* MenuViewController.swift */; };
+		902E8DFC2C8825D100A19BEC /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902E8DF12C8825D100A19BEC /* LanguageManager.swift */; };
+		902E8DFD2C8825D100A19BEC /* HowToPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902E8DF22C8825D100A19BEC /* HowToPlayViewController.swift */; };
+		902E8DFE2C8825D100A19BEC /* LocalizeEN.strings in Resources */ = {isa = PBXBuildFile; fileRef = 902E8DF32C8825D100A19BEC /* LocalizeEN.strings */; };
+		902E8E002C8825F100A19BEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 902E8DFF2C8825F100A19BEC /* AppDelegate.swift */; };
+		902E8E022C8826C100A19BEC /* document.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 902E8E012C8826C100A19BEC /* document.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		902E8D692C88250700A19BEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 902E8D502C88250600A19BEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 902E8D572C88250600A19BEC;
+			remoteInfo = "Deck of Destiny Project";
+		};
+		902E8D732C88250700A19BEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 902E8D502C88250600A19BEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 902E8D572C88250600A19BEC;
+			remoteInfo = "Deck of Destiny Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		902E8D582C88250600A19BEC /* Deck of Destiny Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deck of Destiny Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		902E8D5F2C88250700A19BEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		902E8D622C88250700A19BEC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		902E8D682C88250700A19BEC /* Deck of Destiny ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Deck of Destiny ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		902E8D6C2C88250700A19BEC /* Deck_of_Destiny_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck_of_Destiny_ProjectTests.swift; sourceTree = "<group>"; };
+		902E8D722C88250700A19BEC /* Deck of Destiny ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Deck of Destiny ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		902E8D762C88250700A19BEC /* Deck_of_Destiny_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck_of_Destiny_ProjectUITests.swift; sourceTree = "<group>"; };
+		902E8D782C88250700A19BEC /* Deck_of_Destiny_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck_of_Destiny_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		902E8DE82C8825D100A19BEC /* Deck of Destiny Project-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Deck of Destiny Project-Bridging-Header.h"; sourceTree = "<group>"; };
+		902E8DEA2C8825D100A19BEC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../COSC2659-COSC2813-iOS-Assignment-2-2024B-NguyenNhatLam-S3989101-main/README.md"; sourceTree = "<group>"; };
+		902E8DEB2C8825D100A19BEC /* LeaderboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LeaderboardViewController.swift; path = "../../COSC2659-COSC2813-iOS-Assignment-2-2024B-NguyenNhatLam-S3989101-main/LeaderboardViewController.swift"; sourceTree = "<group>"; };
+		902E8DEC2C8825D100A19BEC /* GameState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameState.swift; path = "../../COSC2659-COSC2813-iOS-Assignment-2-2024B-NguyenNhatLam-S3989101-main/GameState.swift"; sourceTree = "<group>"; };
+		902E8DED2C8825D100A19BEC /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsViewController.swift; path = "../../COSC2659-COSC2813-iOS-Assignment-2-2024B-NguyenNhatLam-S3989101-main/SettingsViewController.swift"; sourceTree = "<group>"; };
+		902E8DEE2C8825D100A19BEC /* LocalizeVN.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = LocalizeVN.strings; path = "../../COSC2659-COSC2813-iOS-Assignment-2-2024B-NguyenNhatLam-S3989101-main/LocalizeVN.strings"; sourceTree = "<group>"; };
+		902E8DEF2C8825D100A19BEC /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = "../../COSC2659-COSC2813-iOS-Assignment-2-2024B-NguyenNhatLam-S3989101-main/GameViewController.swift"; sourceTree = "<group>"; };
+		902E8DF02C8825D100A19BEC /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = "../../COSC2659-COSC2813-iOS-Assignment-2-2024B-NguyenNhatLam-S3989101-main/MenuViewController.swift"; sourceTree = "<group>"; };
+		902E8DF12C8825D100A19BEC /* LanguageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LanguageManager.swift; path = "../../COSC2659-COSC2813-iOS-Assignment-2-2024B-NguyenNhatLam-S3989101-main/LanguageManager.swift"; sourceTree = "<group>"; };
+		902E8DF22C8825D100A19BEC /* HowToPlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HowToPlayViewController.swift; path = "../../COSC2659-COSC2813-iOS-Assignment-2-2024B-NguyenNhatLam-S3989101-main/HowToPlayViewController.swift"; sourceTree = "<group>"; };
+		902E8DF32C8825D100A19BEC /* LocalizeEN.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = LocalizeEN.strings; path = "../../COSC2659-COSC2813-iOS-Assignment-2-2024B-NguyenNhatLam-S3989101-main/LocalizeEN.strings"; sourceTree = "<group>"; };
+		902E8DFF2C8825F100A19BEC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../COSC2659-COSC2813-iOS-Assignment-2-2024B-NguyenNhatLam-S3989101-main/AppDelegate.swift"; sourceTree = "<group>"; };
+		902E8E012C8826C100A19BEC /* document.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = document.pdf; path = "../../COSC2659-COSC2813-iOS-Assignment-2-2024B-NguyenNhatLam-S3989101-main/document.pdf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		902E8D552C88250600A19BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902E8D652C88250700A19BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902E8D6F2C88250700A19BEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		902E8D4F2C88250600A19BEC = {
+			isa = PBXGroup;
+			children = (
+				902E8D5A2C88250600A19BEC /* Deck of Destiny Project */,
+				902E8D6B2C88250700A19BEC /* Deck of Destiny ProjectTests */,
+				902E8D752C88250700A19BEC /* Deck of Destiny ProjectUITests */,
+				902E8D592C88250600A19BEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		902E8D592C88250600A19BEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				902E8D582C88250600A19BEC /* Deck of Destiny Project.app */,
+				902E8D682C88250700A19BEC /* Deck of Destiny ProjectTests.xctest */,
+				902E8D722C88250700A19BEC /* Deck of Destiny ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		902E8D5A2C88250600A19BEC /* Deck of Destiny Project */ = {
+			isa = PBXGroup;
+			children = (
+				902E8E012C8826C100A19BEC /* document.pdf */,
+				902E8DFF2C8825F100A19BEC /* AppDelegate.swift */,
+				902E8DEC2C8825D100A19BEC /* GameState.swift */,
+				902E8DEF2C8825D100A19BEC /* GameViewController.swift */,
+				902E8DF22C8825D100A19BEC /* HowToPlayViewController.swift */,
+				902E8DF12C8825D100A19BEC /* LanguageManager.swift */,
+				902E8DEB2C8825D100A19BEC /* LeaderboardViewController.swift */,
+				902E8DF32C8825D100A19BEC /* LocalizeEN.strings */,
+				902E8DEE2C8825D100A19BEC /* LocalizeVN.strings */,
+				902E8DF02C8825D100A19BEC /* MenuViewController.swift */,
+				902E8DEA2C8825D100A19BEC /* README.md */,
+				902E8DED2C8825D100A19BEC /* SettingsViewController.swift */,
+				902E8D5F2C88250700A19BEC /* Assets.xcassets */,
+				902E8D612C88250700A19BEC /* Preview Content */,
+				902E8DE82C8825D100A19BEC /* Deck of Destiny Project-Bridging-Header.h */,
+			);
+			path = "Deck of Destiny Project";
+			sourceTree = "<group>";
+		};
+		902E8D612C88250700A19BEC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				902E8D622C88250700A19BEC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		902E8D6B2C88250700A19BEC /* Deck of Destiny ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				902E8D6C2C88250700A19BEC /* Deck_of_Destiny_ProjectTests.swift */,
+			);
+			path = "Deck of Destiny ProjectTests";
+			sourceTree = "<group>";
+		};
+		902E8D752C88250700A19BEC /* Deck of Destiny ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				902E8D762C88250700A19BEC /* Deck_of_Destiny_ProjectUITests.swift */,
+				902E8D782C88250700A19BEC /* Deck_of_Destiny_ProjectUITestsLaunchTests.swift */,
+			);
+			path = "Deck of Destiny ProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		902E8D572C88250600A19BEC /* Deck of Destiny Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 902E8D7C2C88250700A19BEC /* Build configuration list for PBXNativeTarget "Deck of Destiny Project" */;
+			buildPhases = (
+				902E8D542C88250600A19BEC /* Sources */,
+				902E8D552C88250600A19BEC /* Frameworks */,
+				902E8D562C88250600A19BEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Deck of Destiny Project";
+			productName = "Deck of Destiny Project";
+			productReference = 902E8D582C88250600A19BEC /* Deck of Destiny Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		902E8D672C88250700A19BEC /* Deck of Destiny ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 902E8D7F2C88250700A19BEC /* Build configuration list for PBXNativeTarget "Deck of Destiny ProjectTests" */;
+			buildPhases = (
+				902E8D642C88250700A19BEC /* Sources */,
+				902E8D652C88250700A19BEC /* Frameworks */,
+				902E8D662C88250700A19BEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				902E8D6A2C88250700A19BEC /* PBXTargetDependency */,
+			);
+			name = "Deck of Destiny ProjectTests";
+			productName = "Deck of Destiny ProjectTests";
+			productReference = 902E8D682C88250700A19BEC /* Deck of Destiny ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		902E8D712C88250700A19BEC /* Deck of Destiny ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 902E8D822C88250700A19BEC /* Build configuration list for PBXNativeTarget "Deck of Destiny ProjectUITests" */;
+			buildPhases = (
+				902E8D6E2C88250700A19BEC /* Sources */,
+				902E8D6F2C88250700A19BEC /* Frameworks */,
+				902E8D702C88250700A19BEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				902E8D742C88250700A19BEC /* PBXTargetDependency */,
+			);
+			name = "Deck of Destiny ProjectUITests";
+			productName = "Deck of Destiny ProjectUITests";
+			productReference = 902E8D722C88250700A19BEC /* Deck of Destiny ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		902E8D502C88250600A19BEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					902E8D572C88250600A19BEC = {
+						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
+					};
+					902E8D672C88250700A19BEC = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 902E8D572C88250600A19BEC;
+					};
+					902E8D712C88250700A19BEC = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 902E8D572C88250600A19BEC;
+					};
+				};
+			};
+			buildConfigurationList = 902E8D532C88250600A19BEC /* Build configuration list for PBXProject "Deck of Destiny Project" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 902E8D4F2C88250600A19BEC;
+			productRefGroup = 902E8D592C88250600A19BEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				902E8D572C88250600A19BEC /* Deck of Destiny Project */,
+				902E8D672C88250700A19BEC /* Deck of Destiny ProjectTests */,
+				902E8D712C88250700A19BEC /* Deck of Destiny ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		902E8D562C88250600A19BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902E8DFE2C8825D100A19BEC /* LocalizeEN.strings in Resources */,
+				902E8D632C88250700A19BEC /* Preview Assets.xcassets in Resources */,
+				902E8DF92C8825D100A19BEC /* LocalizeVN.strings in Resources */,
+				902E8E022C8826C100A19BEC /* document.pdf in Resources */,
+				902E8DF52C8825D100A19BEC /* README.md in Resources */,
+				902E8D602C88250700A19BEC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902E8D662C88250700A19BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902E8D702C88250700A19BEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		902E8D542C88250600A19BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902E8E002C8825F100A19BEC /* AppDelegate.swift in Sources */,
+				902E8DFA2C8825D100A19BEC /* GameViewController.swift in Sources */,
+				902E8DFB2C8825D100A19BEC /* MenuViewController.swift in Sources */,
+				902E8DF62C8825D100A19BEC /* LeaderboardViewController.swift in Sources */,
+				902E8DFD2C8825D100A19BEC /* HowToPlayViewController.swift in Sources */,
+				902E8DFC2C8825D100A19BEC /* LanguageManager.swift in Sources */,
+				902E8DF72C8825D100A19BEC /* GameState.swift in Sources */,
+				902E8DF82C8825D100A19BEC /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902E8D642C88250700A19BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902E8D6D2C88250700A19BEC /* Deck_of_Destiny_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		902E8D6E2C88250700A19BEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				902E8D772C88250700A19BEC /* Deck_of_Destiny_ProjectUITests.swift in Sources */,
+				902E8D792C88250700A19BEC /* Deck_of_Destiny_ProjectUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		902E8D6A2C88250700A19BEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 902E8D572C88250600A19BEC /* Deck of Destiny Project */;
+			targetProxy = 902E8D692C88250700A19BEC /* PBXContainerItemProxy */;
+		};
+		902E8D742C88250700A19BEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 902E8D572C88250600A19BEC /* Deck of Destiny Project */;
+			targetProxy = 902E8D732C88250700A19BEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		902E8D7A2C88250700A19BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		902E8D7B2C88250700A19BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		902E8D7D2C88250700A19BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Deck of Destiny Project/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RMIT.Deck-of-Destiny-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Deck of Destiny Project/Deck of Destiny Project-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		902E8D7E2C88250700A19BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Deck of Destiny Project/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RMIT.Deck-of-Destiny-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Deck of Destiny Project/Deck of Destiny Project-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		902E8D802C88250700A19BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RMIT.Deck-of-Destiny-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deck of Destiny Project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Deck of Destiny Project";
+			};
+			name = Debug;
+		};
+		902E8D812C88250700A19BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RMIT.Deck-of-Destiny-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deck of Destiny Project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Deck of Destiny Project";
+			};
+			name = Release;
+		};
+		902E8D832C88250700A19BEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RMIT.Deck-of-Destiny-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Deck of Destiny Project";
+			};
+			name = Debug;
+		};
+		902E8D842C88250700A19BEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RMIT.Deck-of-Destiny-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Deck of Destiny Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		902E8D532C88250600A19BEC /* Build configuration list for PBXProject "Deck of Destiny Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902E8D7A2C88250700A19BEC /* Debug */,
+				902E8D7B2C88250700A19BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		902E8D7C2C88250700A19BEC /* Build configuration list for PBXNativeTarget "Deck of Destiny Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902E8D7D2C88250700A19BEC /* Debug */,
+				902E8D7E2C88250700A19BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		902E8D7F2C88250700A19BEC /* Build configuration list for PBXNativeTarget "Deck of Destiny ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902E8D802C88250700A19BEC /* Debug */,
+				902E8D812C88250700A19BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		902E8D822C88250700A19BEC /* Build configuration list for PBXNativeTarget "Deck of Destiny ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902E8D832C88250700A19BEC /* Debug */,
+				902E8D842C88250700A19BEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 902E8D502C88250600A19BEC /* Project object */;
+}
